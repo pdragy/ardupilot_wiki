@@ -43,7 +43,7 @@ motor_failure_test.lua                      Motor failure testing script
 mount-poi.lua                               Displays the location (lat, lon and altitude) that the gimbal is currently pointing towards
 net-ntrip.lua                               NTRIP applet to receive internet NTRIP casting of RTK data
 net_webserver.lua                           This implements a web server for boards that have networking support
-param-set.lua                               Allows only certain params to be changed via GCS
+param-lockdown.lua                          Allows only certain params to be changed via GCS
 pelco_d_antennatracker.lua                  Maps AntennaTracker outputs to corresponding Pelco-D messages
 plane_aerobatics.lua(in Aerobatics subdir)  Autonomous trajectory precise aerobatics
 plane_follow.lua                            Allows one or more ArduPlanes to follow a mavlink target, often another plane.
